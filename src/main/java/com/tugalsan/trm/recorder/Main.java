@@ -17,7 +17,7 @@ public class Main {
         System.out.println("0");
         var soundRecorder = TS_InputSound.of(Path.of("D:\\as\\a.wav"));
         System.out.println("1");
-        TS_ThreadWait.seconds(null, 20f, "");
+        TS_ThreadWait.seconds(null, 20f);
         System.out.println("3");
         soundRecorder.kill();
         System.out.println("5");
