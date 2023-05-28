@@ -10,9 +10,8 @@ public class Main {
 
     final private static TS_Log d = TS_Log.of(Main.class);
 
-    /*
-        
-     */
+    //cd C:\me\codes\com.tugalsan\trm\com.tugalsan.trm.recorder
+    //java --enable-preview --add-modules jdk.incubator.concurrent -jar target/com.tugalsan.trm.recorder-1.0-SNAPSHOT-jar-with-dependencies.jar
     public static void main(String[] args) {
         System.out.println("0");
         var soundRecorder = TS_InputSound.of(Path.of("D:\\as\\a.wav"));
