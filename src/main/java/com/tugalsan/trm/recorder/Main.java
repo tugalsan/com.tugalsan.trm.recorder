@@ -2,7 +2,7 @@ package com.tugalsan.trm.recorder;
 
 import com.tugalsan.api.input.server.*;
 import com.tugalsan.api.log.server.*;
-import com.tugalsan.api.thread.server.*;
+import com.tugalsan.api.thread.server.TS_ThreadWait;
 import java.nio.file.*;
 
 //WHEN RUNNING IN NETBEANS, ALL DEPENDENCIES SHOULD HAVE TARGET FOLDER!
